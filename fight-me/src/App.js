@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './Header';
 import './App.css';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <div className="App">
       <h1>Lets start this shit</h1>
 
-      {/* Header */}
+      <Header />
       {/* Tinder Cards */}
       {/* Buttons below tinder cards */}
 
