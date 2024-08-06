@@ -5,7 +5,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Lets start this shit</h1>
 
       <Header />
       {/* Tinder Cards */}
