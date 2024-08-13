@@ -5,12 +5,12 @@ import "./FighterCards.css";
 function FighterCards() {
     const [people, setPeople] = useState([
         {
-            name: 'scoob',
-            url: 'https://en.wikipedia.org/wiki/Scooby-Doo_%28character%29#/media/File:Scooby-Doo.png'
+            name: 'little stuart',
+            url: 'https://mediaproxy.salon.com/width/1200/https://media2.salon.com/2002/07/stuart_little_2.jpg'
         },
         {
-            name: 'remy boyz',
-            url: 'https://hero.fandom.com/wiki/Remy_(Ratatouille)?file=Remy.png'
+            name: 'remy boy',
+            url: 'https://ih1.redbubble.net/image.3369554001.7681/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg'
         }
     ]);
 
@@ -24,7 +24,7 @@ function FighterCards() {
                 <TinderCard
                     className="swipe"
                     key={person.name}
-                    preventSwipe={['up', 'down']}
+                    preventSwipe={["up", "down"]}
                 >
                     <div 
                     style={{ backgroundImage: `url(${person.url})` }}
